@@ -10,8 +10,7 @@ execution time 3 = 50.6543
 
 whith as many lines as you want where the rows are different samples (execution time in miliseconds) 
 and you want to calculate the average of that samples (after eliminating the max and min from the samples) 
-and want to calculate the MFLOPS (milion floating point operations 
-per second) of that program (the program where the execution time comes from).
+and want to calculate the MFLOPS (milion floating point operations per second) of that program (the program where the execution time comes from).
 -----------------------------
 So, given an input file  where evey row represents a different execution time obtained
 from executing a certain program, the mflops.py asks you for:
