@@ -4,9 +4,7 @@ Context: you have a txt file with the form
 execution time 1 = 45.657
 execution time 2 = 44.1267
 execution time 3 = 50.6543
-.
-.
-.
+
 
 whith as many lines as you want where the rows are different samples (execution time in miliseconds) 
 and you want to calculate the average of that samples (after eliminating the max and min from the samples) 
@@ -24,20 +22,22 @@ then the mflops.py:
     
     
 Example escenario:
+
     -you have the file "program.exe" which is the program which prints on the screen(terminal) the miliseconds it 
     takes to execute after it has executed, the output has the form 
       " ... = number" 
       where '...' doesn't matter what is, the output of the program can be "execution time = 45.76" or "result = 35.87" or
       "this program takes time = 65.68944" **the only restriction for the mflops.py to work well is that the output must have
-      the form "... = number" and after number, there is nothing more in that line❗️**. 
+      the form "... = number" and after number, there is nothing more in that line❗️**
+      
       Examples of input files:
       ✅(CORRECT) 
-                  execution time = 45.76565
-                  execution time = 46.2565
-                  execution time = 45.5
-                  execution time = 34.443
-                  execution time = 56.15
-                  execution time = 45.76          
+      execution time = 45.76565
+      execution time = 46.2565
+      execution time = 45.5
+      execution time = 34.443
+      execution time = 56.15
+      execution time = 45.76          
       ❌(WRONG)  
                  execution time = 35.76435 seconds
                  execution time = 33.21 seconds
@@ -60,12 +60,20 @@ Example escenario:
     -you have the file mflops.py in your current working directory
     Step 1: Then you proceed in the following way:
     ```
+    
     $ ./program.exe >> mflops_out.txt
+    
     $ ./program.exe >> mflops_out.txt
+    
     $ ./program.exe >> mflops_out.txt
+    
     $ ./program.exe >> mflops_out.txt
+    
     $ ./program.exe >> mflops_out.txt
+    
+    
     ```
+    
     as many times as you want(the more you repeat, the more precise it will be the final result)
     (if you already have a txt file with the correct form with the samples of the time, you can skip the Step1)
     Step2 : And then you do:
@@ -78,5 +86,6 @@ Example escenario:
     and it will be printed on the screen(terminal)
      -the average of the execution time of the samples from the input file (after deleting the min and max)
      -the mflops of the program "program.exe"
+     
 Note: $ refers to the prompt of your command line(terminal, console, etc)
     
