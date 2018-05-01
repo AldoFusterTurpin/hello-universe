@@ -26,9 +26,7 @@ Example escenario:
       where '...' doesn't matter what is, the output of the program can be "execution time = 45.76" or "result = 35.87" or
       "this program takes time = 65.68944" **the only restriction for the mflops.py to work well is that the output must have
       the form "... = number" and after number, there is nothing more in that line❗️**  
-      
-      
-      Examples of input files:  
+    Examples of input files:  
       ✅(CORRECT)   
       execution time = 45.76565  
       execution time = 46.2565  
@@ -38,17 +36,13 @@ Example escenario:
       execution time = 45.76            
       ❌(WRONG)  
                  execution time = 35.76435 seconds  
-                 execution time = 33.21 seconds  
-                 
+                 execution time = 33.21 seconds
       ✅(CORRECT)   
                 hello bla bla bla = 68  
-                
       ❌(WRONG)     
-                hello bla bla bla = 68 seconds
-                
+                hello bla bla bla = 68 seconds      
       ✅(CORRECT) 
-                 time to execute=68
-                 
+                 time to execute=68            
       ❌(WRONG)   
                   "68.6547645"   
       IF YOU WANT THAT THE PROGRAM mflops.py WORKS WITH THE INPUT WITH THE FORM  
@@ -59,10 +53,10 @@ Example escenario:
          70.543543  
          68.4356  
      where every line is just the execution time, check my "mflops calculator_v2" folder                                                          
-    -you have the file mflops.py in your current working directory  
-    Step 1: Then you proceed in the following way:  
-    ```  
-    $ ./program.exe >> mflops_out.txt    
+    -you have the file mflops.py in your current working directory
+    Step 1: Then you proceed in the following way:
+    ```
+    $ ./program.exe >> mflops_out.txt  
     $ ./program.exe >> mflops_out.txt  
     $ ./program.exe >> mflops_out.txt  
     $ ./program.exe >> mflops_out.txt  
