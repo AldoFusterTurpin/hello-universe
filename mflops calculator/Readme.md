@@ -5,15 +5,14 @@ execution time 2 = 44.1267
 execution time 3 = 50.6543  
   
 whith as many lines as you want where the rows are different samples (execution time in miliseconds) 
-and you want to calculate the average of that samples (after eliminating the max and min from the samples.
+and you want to calculate the average of that samples (after eliminating the max and min from the samples).
 You also want to calculate the MFLOPS (milion floating point operations per second) of that program (the program where the   execution time comes from).  
 
-So, given an input file  where evey row represents a different execution time obtained  
-from executing a certain program, the mflops.py asks you for:  
+So, given an input file  where evey row represents a different execution time obtained from executing a certain program, the mflops.py asks you for:  
 -the name of the file from which read the different execution times  
 -the number of floating point operations of the target program (is needed to calculate the MFLOPS)  
-then the mflops.py:  
--prints on the screen the average of the execution time of the different samples
+then the mflops.py:    
+-prints on the screen the average of the execution time of the different samples  
 -prints on the screen the mflops of the program(program refers at the program where the samples comes from, not mflops.py).  
 ...........................................................  
 Example escenario:  
@@ -51,14 +50,10 @@ where every line is just the execution time, check my "mflops calculator_v2" fol
 -you have the file mflops.py in your current working directory
     Step 1: Then you proceed in the following way in the command line :<br/><br/>
     ```
-    $ ./program.exe >> mflops_out.txt<br/>  
-    $ ./program.exe >> mflops_out.txt<br/>  
-    $ ./program.exe >> mflops_out.txt<br/>  
-    $ ./program.exe >> mflops_out.txt<br/>  
-    $ ./program.exe >> mflops_out.txt<br/>  
+    $ ./program.exe >> mflops_out.txt  
     ```  
     as many times as you want(the more you repeat, the more precise it will be the final result)  
-    (if you already have a txt file with the correct form with the samples of the time, you can skip the Step1)  
+    (if you already have a txt file with the correct form with the samples of the time, you can skip Step1)<br/><br/>
     Step2 : And then you do:  
     ```  
     $ python3 mflops.py  
