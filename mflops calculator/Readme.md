@@ -17,7 +17,7 @@ then the mflops.py:
 ...........................................................  
 Example escenario:  
 -suppose that you have a executable file "program.exe" which is the program which prints on the screen(terminal) the miliseconds it takes to execute after it has executed, the output of that program has the form 
-      " ... = <number> " 
+      " ... = number " 
       where '...' doesn't matter what is, the output of the program can be "execution time = 45.76" or "result = 35.87" or
       "this program takes time = 65.68944" **the only restriction for the mflops.py to work well is that the output must have
       the form "... = number" and after number, there is nothing more in that line❗️**  
