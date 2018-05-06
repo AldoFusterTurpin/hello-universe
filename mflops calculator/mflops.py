@@ -63,7 +63,7 @@ def main():
             "Name of the file from which to read the different numbers? ")
         calculate_mflops(file_name)
     except FileNotFoundError:
-        print("ERROR. The filename your provided does not exists. Aborting...")
+        print("ERROR. The filename you provided does not exist. Aborting...")
 # ############################################################################
 
 
