@@ -18,7 +18,7 @@ void convert_to_bin(unsigned long long number) {
             i++;
         }
         //i now "points" one position further the last element of 
-        //bin(due to the "i++"" the last time we entered the for)
+        //bin(due to the "i++"" the last time we entered the while)
 
         //we must print in reversed order
         //due to the way we are converting from decimal to binary
